@@ -49,6 +49,7 @@ export const siteConfig = {
         "Skill for Amazon Alexa that offers clothing suggestions based on weather forecasts. 5k+ monthly interactions and 2k+ reviews. Built with OpenWeatherMap APIs and hosted on AWS Lambda.",
       link: "https://www.amazon.co.uk/dp/B072KL1S3G",
       skills: ["Alexa", "AWS", "Lambda", "OpenWeatherMap", "Node.js"],
+      image: "/portfolio/wearassistant.jpg",
     },
     {
       name: "Mirror Challenge",
@@ -64,6 +65,7 @@ export const siteConfig = {
         "Trivia‑style game skill for Amazon Alexa. Players guess the prices of four random products presented by Alexa. Hosted on AWS Lambda.",
       link: "https://www.amazon.it/FluiBex-Indovina-il-prezzo/dp/B07PDMSNF9?ie=UTF8",
       skills: ["Alexa", "AWS", "Lambda", "Node.js", "Games"],
+      image: "/portfolio/guesstheprice.jpg",
     },
   ] as Project[],
   experience: [
