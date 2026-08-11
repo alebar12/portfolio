@@ -1,3 +1,11 @@
+interface Project {
+  name: string;
+  description: string;
+  link?: string;
+  skills?: string[];
+  image?: string;
+}
+
 export const siteConfig = {
   name: "Alessio Barducci",
   title: "Senior Software Engineer",
@@ -17,6 +25,7 @@ export const siteConfig = {
         "Music streaming player for Android. 50k+ downloads on Google Play Store and Amazon Appstore. Built using external APIs from SoundCloud, Last FM, and Audius. Backend based on Java Spring Boot, hosted on Heroku. No longer actively maintained.",
       link: "https://www.amazon.com/Shuffly-Music-Song-Streaming-Player/dp/B01HGWUJK0",
       skills: ["Android", "Java", "Kotlin", "Music", "SoundCloud", "LastFM", "Audius"],
+      image: "/public/shufflymusic.png",
     },
     {
       name: "Insane Soccer",
@@ -24,6 +33,7 @@ export const siteConfig = {
         "Open source arcade soccer game written in Typescript.",
       link: "https://github.com/alebar12/insane-soccer",
       skills: ["Typescript", "Games", "Open Source", "HTML5 Canvas"],
+      image: "/public/insanesoccer1.png",
     },
     {
       name: "Soccer Coins",
@@ -31,6 +41,7 @@ export const siteConfig = {
         "Arcade soccer game for Android. 500k+ downloads and 2.5k+ reviews on Google Play Store. No longer actively maintained.",
       link: "https://play.google.com/store/apps/details?id=it.soccerCoins",
       skills: ["Android", "Java", "Games"],
+      image: "/public/soccercoins.png",
     },
     {
       name: "Wear Assistant",
@@ -45,6 +56,7 @@ export const siteConfig = {
         "Puzzle game about light reflection for Android. Built using AndEngine. No longer actively maintained.",
       link: "https://www.amazon.com/FluiBex-Mirror-Challenge/dp/B018XYQWSI",
       skills: ["Android", "Java", "AndEngine", "Games"],
+      image: "/public/mirrorchallenge.png",
     },
     {
       name: "Guess the price",
@@ -53,7 +65,7 @@ export const siteConfig = {
       link: "https://www.amazon.it/FluiBex-Indovina-il-prezzo/dp/B07PDMSNF9?ie=UTF8",
       skills: ["Alexa", "AWS", "Lambda", "Node.js", "Games"],
     },
-  ],
+  ] as Project[],
   experience: [
     {
       company: "team.blue",
