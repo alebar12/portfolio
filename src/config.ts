@@ -9,28 +9,14 @@ export const siteConfig = {
   },
   aboutMe:
     "Technical Lead and Software Developer with 10+ years of experience designing and building scalable microservices platforms in cloud-native environments. Strong expertise in Java and Spring. Solid experience in software development, cross-functional collaboration, and team leadership. In my spare time I like to explore and build side projects using different technologies, from Android games to Alexa Skills.",
-  skills: ["Java", "Spring", "Android", "Typescript", "Javascript", "Node.js", "AWS"],
+  skills: ["Java", "Spring", "Android", "Javascript", "Node.js", "AWS"],
   projects: [
     {
       name: "Shuffly Music",
       description:
         "Music streaming player for Android. 50k+ downloads on Google Play Store and Amazon Appstore. Built using external APIs from SoundCloud, Last FM, and Audius. Backend based on Java Spring Boot, hosted on Heroku. No longer actively maintained.",
-      link: "https://www.amazon.it/Shuffly-Music-Song-Streaming-Player/dp/B01HGWUJK0",
+      link: "https://www.amazon.com/Shuffly-Music-Song-Streaming-Player/dp/B01HGWUJK0",
       skills: ["Android", "Java", "Kotlin", "Music", "SoundCloud", "LastFM", "Audius"],
-    },
-    {
-      name: "Soccer Coins",
-      description:
-        "Arcade soccer game for Android. 500k+ downloads and 2.5k+ reviews on Google Play Store. No longer actively maintained.",
-      link: "https://play.google.com/store/apps/details?id=it.soccerCoins",
-      skills: ["Android", "Java", "Games"],
-    },
-    {
-      name: "Mirror Challenge",
-      description:
-        "Puzzle game about light reflection for Android. Built using AndEngine. No longer actively maintained.",
-      link: "https://www.amazon.it/FluiBex-Mirror-Challenge/dp/B018XYQWSI",
-      skills: ["Android", "Java", "AndEngine", "Games"],
     },
     {
       name: "Insane Soccer",
@@ -40,6 +26,13 @@ export const siteConfig = {
       skills: ["Typescript", "Games", "Open Source", "HTML5 Canvas"],
     },
     {
+      name: "Soccer Coins",
+      description:
+        "Arcade soccer game for Android. 500k+ downloads and 2.5k+ reviews on Google Play Store. No longer actively maintained.",
+      link: "https://play.google.com/store/apps/details?id=it.soccerCoins",
+      skills: ["Android", "Java", "Games"],
+    },
+    {
       name: "Wear Assistant",
       description:
         "Skill for Amazon Alexa that offers clothing suggestions based on weather forecasts. 5k+ monthly interactions and 2k+ reviews. Built with OpenWeatherMap APIs and hosted on AWS Lambda.",
@@ -47,10 +40,17 @@ export const siteConfig = {
       skills: ["Alexa", "AWS", "Lambda", "OpenWeatherMap", "Node.js"],
     },
     {
+      name: "Mirror Challenge",
+      description:
+        "Puzzle game about light reflection for Android. Built using AndEngine. No longer actively maintained.",
+      link: "https://www.amazon.com/FluiBex-Mirror-Challenge/dp/B018XYQWSI",
+      skills: ["Android", "Java", "AndEngine", "Games"],
+    },
+    {
       name: "Guess the price",
       description:
         "Trivia‑style game skill for Amazon Alexa. Players guess the prices of four random products presented by Alexa. Hosted on AWS Lambda.",
-      link: "https://www.amazon.co.uk/dp/B072KL1S3G",
+      link: "https://www.amazon.it/FluiBex-Indovina-il-prezzo/dp/B07PDMSNF9?ie=UTF8",
       skills: ["Alexa", "AWS", "Lambda", "Node.js", "Games"],
     },
   ],
