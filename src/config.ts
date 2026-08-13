@@ -16,7 +16,7 @@ export const siteConfig = {
     github: "https://github.com/alebar12",
   },
   aboutMe:
-    "Technical Lead and Software Developer with 10+ years of experience designing and building scalable microservices platforms in cloud-native environments. Strong expertise in Java and Spring. Solid experience in software development, cross-functional collaboration, and team leadership. In my spare time I like to explore and build side projects using different technologies, from Android games to Alexa Skills.",
+    "Technical Lead and Senior Software Developer with 10+ years of experience designing and building scalable microservices platforms in cloud-native environments. Strong expertise in Java and Spring, working in international environments. Solid experience in software development, cross-functional collaboration, and team leadership. In my spare time I like to explore and build side projects using different technologies, from Android games to Alexa Skills.",
   skills: ["Java", "Spring", "Android", "Javascript", "Node.js", "AWS"],
   projects: [
     {
