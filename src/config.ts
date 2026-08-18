@@ -22,7 +22,7 @@ export const siteConfig = {
     {
       name: "Shuffly Music",
       description:
-        "Music streaming player for Android. 50k+ downloads on Google Play Store and Amazon Appstore. Built using external APIs from SoundCloud, Last FM, and Audius. Backend based on Java Spring Boot, hosted on Heroku. No longer actively maintained.",
+        "Native music streaming player for Android. 50k+ downloads on Google Play Store and Amazon Appstore. Built using external APIs from SoundCloud, Last FM, and Audius. Backend based on Java Spring Boot, hosted on Heroku. No longer actively maintained.",
       link: "https://www.amazon.com/Shuffly-Music-Song-Streaming-Player/dp/B01HGWUJK0",
       skills: ["Android", "Java", "Kotlin", "Music", "SoundCloud", "LastFM", "Audius"],
       image: "/portfolio/shufflymusic.png",
@@ -38,7 +38,7 @@ export const siteConfig = {
     {
       name: "Soccer Coins",
       description:
-        "Arcade soccer game for Android. 500k+ downloads and 2.5k+ reviews on Google Play Store. No longer actively maintained.",
+        "Native arcade soccer game for Android. 500k+ downloads and 2.5k+ reviews on Google Play Store. No longer actively maintained.",
       link: "https://play.google.com/store/apps/details?id=it.soccerCoins",
       skills: ["Android", "Java", "Games"],
       image: "/portfolio/soccercoins.png",
