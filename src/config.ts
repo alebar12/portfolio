@@ -30,7 +30,7 @@ export const siteConfig = {
     {
       name: "Insane Soccer",
       description:
-        "Open source arcade soccer game written in Typescript. The CPU AI is a neural network trained with reinforcement learning using PyTorch.",
+        "Open-source TypeScript arcade soccer game featuring a CPU AI based on a neural network trained using reinforcement learning with PyTorch.",
       link: "https://github.com/alebar12/insane-soccer",
       skills: ["Typescript", "Games", "Open Source", "HTML5 Canvas"],
       image: "/portfolio/insanesoccer1.png",
