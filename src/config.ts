@@ -17,7 +17,7 @@ export const siteConfig = {
   },
   aboutMe:
     "Technical Lead and Senior Software Developer with 10+ years of experience designing and building scalable microservices platforms in cloud-native environments. Strong expertise in Java and Spring, working in international environments. Solid experience in software development, cross-functional collaboration, and team leadership. In my spare time I like to explore and build side projects using different technologies, from Android games to Alexa Skills.",
-  skills: ["Java", "Spring", "Android", "Javascript", "Node.js", "AWS", "PHP", "Python", "Docker", "K8S", "React", "Vue.js"],
+  skills: ["Java", "Spring", "Android", "Javascript", "Node.js", "AWS", "PHP", "Python", "Docker", "K8S", "React", "Vue.js", "Flutter"],
   projects: [
     {
       name: "Shuffly Music",
@@ -50,6 +50,14 @@ export const siteConfig = {
       link: "https://www.amazon.co.uk/dp/B072KL1S3G",
       skills: ["Alexa", "AWS", "Lambda", "OpenWeatherMap", "Node.js"],
       image: "/portfolio/wearassistant.jpg",
+    },
+    {
+      name: "Shared Menu",
+      description:
+        "Android app made with Flutter to plan shared lunches and dinners. Backend hosted on Cloudflare Workers.",
+      link: "https://github.com/alebar12/shared-menu",
+      skills: ["Android", "Flutter", "Dart"],
+      image: "/portfolio/sharedMenu.png",
     },
     {
       name: "Mirror Challenge",
