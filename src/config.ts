@@ -79,7 +79,7 @@ export const siteConfig = {
   experience: [
     {
       company: "team.blue",
-      title: "Technical lead / Software engineer",
+      title: "Technical lead / Senior Software engineer",
       dateRange: "Nov 2021 - Present",
       bullets: [],
     },
